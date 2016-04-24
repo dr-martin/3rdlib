@@ -26,7 +26,7 @@
 			return -1;
 		};
 
-	define(['module', 'eventemitter'], function(module, EventEmitter) {
+	define(['module', 'EventEmitter'], function(module, EventEmitter) {
 		console.log('->'+module.version);
 		console.log('->'+module.appId);
 		var Facebook, permissionsMap;
